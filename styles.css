@@ -5,7 +5,7 @@ body {
     color: white;
 }
 
-/* NAVBAR */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -29,7 +29,7 @@ nav a:hover {
     color: red;
 }
 
-/* CONTENT */
+
 .content {
     padding: 40px;
     text-align: center;
@@ -55,7 +55,7 @@ nav a:hover {
     background: #333;
 }
 
-/* FOOTER */
+
 footer {
     text-align: center;
     padding: 20px;
@@ -81,16 +81,16 @@ body {
     background-attachment: fixed;
 }
 
-/* 🔥 Hero section centered */
+
 .hero {
-    height: 100vh;              /* full screen */
+    height: 100vh;             
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 
-    background: rgba(0, 0, 0, 0.5); /* dark overlay for readability */
+    background: rgba(0, 0, 0, 0.5); 
 }
 
 .hero h1 {
@@ -305,7 +305,7 @@ footer {
 
     position: relative;
 
-    /* subtle depth */
+   
     text-shadow: 0 5px 20px rgba(0,0,0,0.4);
 }
 .about-title::after {
@@ -333,7 +333,7 @@ footer {
     letter-spacing: 4px;
     text-transform: uppercase;
 
-    text-align: center;   /* 🔥 important */
+    text-align: center;   
     position: relative;
 }
 .about-box:hover {
@@ -357,7 +357,7 @@ footer {
 
     backdrop-filter: blur(8px);
 
-    transition: all 0.3s ease; /* 🔥 important for smooth hover */
+    transition: all 0.3s ease; 
 }
 .gallery {
     display: grid;
@@ -507,12 +507,12 @@ button:hover {
     border-radius: 50%;
     z-index: 1;
 }
-/* Left side */
+
 .timeline-item:nth-child(odd) {
     left: 0;
 }
 
-/* Right side */
+
 .timeline-item:nth-child(even) {
     left: 50%;
 }
